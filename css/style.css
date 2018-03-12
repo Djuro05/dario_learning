@@ -5,16 +5,19 @@ body{
   background-color: #000;
   color: white;
 }
+
 .container{
   width: 80%;
   margin:auto;
   overflow: hidden;
 }
+
 ul{
   margin: 0;
   padding: 0;
 }
-.button_1{
+
+.btn {
   height: 38px;
   background: #e8491d;
   border: none;
@@ -22,6 +25,7 @@ ul{
   padding-right: 20px;
   color: #ffffff;
 }
+
 .o-header {
   background:#000134;
   color: #ffffff;
@@ -29,6 +33,7 @@ ul{
   min-height: 70px;
   border-bottom: #e8491d 3px solid;
 }
+
 .o-header  a{
   color:#ffffff;
   text-decoration: none;
@@ -36,30 +41,42 @@ ul{
   font-size: 16px;
 }
 
-.o-header  li{
+.o-header_list .o-header_list_item {
   float:left;
   display:inline;
   padding: 0 20px 0 20px;
 }
-.o-header  #branding{
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.o-header .branding {
   float:left;
 }
-.o-header  #branding h1{
+
+.o-header .branding .title-h1 {
   margin:0;
 }
-.o-header  nav{
+
+.o-header .navigation{
   float: right;
   margin-top: 10px;
 }
-.o-header  .highlight, .o-header  .current a{
+
+.o-header  .color-orange, .o-header  .current a{
   color: #e8491d;
   font-weight: bold;
 }
+
 .o-header  a:hover{
   color: #cccccc;
   font-weight: bold;
 }
-#showcase{
+
+.showcase{
   min-height: 400px;
   background: url('../img/showcase.jpg');
   background-repeat: no-repeat;
@@ -67,43 +84,54 @@ ul{
   background-size: cover;
   text-align: center;
 }
-#showcase h1{
+
+.showcase .title-h1 {
   margin-top: 100px;
   font-size:55px;
   margin-bottom: 10;
 }
-#showcase p{
+
+.showcase .showcase-p{
   font-size:20px;
 }
-#newsletter{
+
+.newsletter{
   padding: 15px;
   color:#ffffff;
   background:#000134;
 }
-#newsletter h1{
+
+.newsletter .title-h1{
   float: left;
 }
-#newsletter form{
+
+.newsletter .newsletter_form{
   float: right;
   margin-top: 15px;
 }
-#newsletter input[type="email"]{
+
+.newsletter .newsletter_input{
   padding: 4px;
   height: 25px;
   width: 250px;
 }
-#boxes{
+
+.boxes{
   margin-top: 20px;
 }
-#boxes .box{
+
+.boxes .box{
   float:left;
   width:30%;
   text-align: center;
   padding:10px;
 }
-#boxes .box img{
-  width: 90px;
+
+.o-img.o-img-80 {
+  height:80px;
+  width:80px;
 }
+
 footer{
   padding: 20px;
   margin-top: 20px;

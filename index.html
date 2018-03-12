@@ -1,62 +1,63 @@
-  <html>
+<html>
   <head>
     <meta charset="utf-8">
     <title>Welcome to my Portfolio</title>
     <link rel="stylesheet"href="css/style.css">
   </head>
+
   <body>
     <header class="o-header">
-      <div class="container">
-       <div id="naslov">
-         <h1><span class="highlight">Dario </span>Djuric</h1>
-      </div>
-        <nav>
-          <ul>
-            <li class="current"><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
+      <div class="container clearfix">
+       <div class="branding">
+         <h1 class="title title-h1"><span class="color-orange">Dario </span>Djuric</h1>
+       </div>
+        <nav class="navigation">
+          <ul class="o-header_list clearfix">
+            <li class="o-header_list_item" class="current"><a href="index.html">Home</a></li>
+            <li class="o-header_list_item"><a href="about.html">About</a></li>
+            <li class="o-header_list_item"><a href="projects.html">Projects</a></li>
           </ul>
         </nav>
       </div>
     </header>
 
-    <section id ="showcase">
+    <section class="showcase">
       <div class="container">
-        <h1>Dario</h1>
-        <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Sed semper felis id fringilla vehicula.
+        <h1 class="title title-h1">Dario</h1>
+        <p class="showcase-p">orem ipsum dolor sit amet, consectetur adipiscing elit. Sed semper felis id fringilla vehicula.
           Curabitur odio dolor, imperdiet at convallis a, finibus ultricies odio.
           Praesent scelerisque fringilla diam in efficitur. Praesent scelerisque convallis molestie.</p>
       </div>
     </section>
 
-    <section id="newsletter">
-      <div class="container">
-        <h1>Subscribe</h1>
-        <form>
-          <input type="email" placeholder="Enter email">
-          <button type="submit" class="button_1">Subscribe</button>
+    <section class="newsletter">
+      <div class="container clearfix">
+        <h1 class="title title-h1">Subscribe</h1>
+        <form class="newsletter_form">
+          <input class="newsletter_input" type="email" placeholder="Enter email">
+          <button type="submit" class="btn">Subscribe</button>
         </form>
       </div>
     </section>
 
-    <section id="boxes">
+    <section class="boxes">
       <div class="container">
         <div class="box">
-          <img src="img/logo_html.png" height="80"width="80">
+          <img class="o-img o-img-80" src="img/logo_html.png">
           <h3>HTML5 Markup</h3>
           <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Sed semper felis id fringilla vehicula.
             Curabitur odio dolor, imperdiet at convallis a, finibus ultricies odio.
             Praesent scelerisque fringilla diam in efficitur. Praesent scelerisque convallis molestie.</p>
         </div>
         <div class="box">
-          <img src="img/logo_css.png" height="80"width="80">
+          <img class="o-img o-img-80" src="img/logo_css.png">
           <h3>CSS3 Styling</h3>
           <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Sed semper felis id fringilla vehicula.
             Curabitur odio dolor, imperdiet at convallis a, finibus ultricies odio.
             Praesent scelerisque fringilla diam in efficitur. Praesent scelerisque convallis molestie.</p>
         </div>
         <div class="box">
-          <img src="img/brush_logo.png" height="80"width="80">
+          <img class="o-img o-img-80" src="img/brush_logo.png">
           <h3>Graphic design</h3>
           <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Sed semper felis id fringilla vehicula.
             Curabitur odio dolor, imperdiet at convallis a, finibus ultricies odio.
@@ -64,8 +65,10 @@
         </div>
       </div>
     </section>
+
     <footer>
       <p>Dario Web Design, Copyright &copy; 2018</p>
+<!-- Testing ... -->
     </footer>
   </body>
 </html>
