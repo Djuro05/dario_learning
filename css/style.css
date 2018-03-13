@@ -138,10 +138,61 @@ ul {
   height:80px;
 }
 
+.sidebar {
+  float: right;
+  width: 30%;
+  padding: 10px;
+  margin-top: 10px;
+  border: solid;
+  border-color: white;
+  font-size: 15px;
+  text-align: center;
+}
+
+
+.main-col {
+  float: left;
+  width: 65%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.projectsList .projectsList_item {
+  list-style: none;
+  padding: 20px;
+  border: #ffffff solid 1px;
+  margin-bottom: 5px;
+  color: #e8491d;
+}
+
 footer {
   padding: 20px;
   margin-top: 20px;
   background-color: #e8491d;
   color: #ffffff;
   text-align: center;
+}
+
+@media(max-width: 768px) {
+  .o-header .branding,
+  .o-header .navigation,
+  .o-header .navigation li,
+  .boxes .box {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  .o-header {
+    padding-bottom: 20px;
+  }
+
+  .showcase .title-h1 {
+    margin-top: 40px;
+  }
+
+  .newsletter .btn {
+    display: block;
+    width: 100%;
+  }
 }
